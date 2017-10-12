@@ -37,11 +37,28 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Lists\Updateable\Interfaces.cs" />
+    <Compile Include="Lists\LazyFunctionEnumerator.cs" />
+    <Compile Include="Lists\TwoEnumeratorEnumerator.cs" />
+    <Compile Include="Lists\Concurrent\Updateable\Interfaces.cs" />
+    <Compile Include="Trees\BinaryTrees\SplayTree.cs" />
+    <Compile Include="Trees\Modification.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Lists\Concurrent\UpdateableConcurrentDictionary.cs" />
     <Compile Include="Lists\Concurrent\UpdateableConcurrentList.cs" />
-    <Compile Include="Trees\ComparableBinaryNode.cs" />
+    <Compile Include="Trees\BasicNode.cs" />
+    <Compile Include="Trees\BinaryTrees\BinaryExtensions.cs" />
+    <Compile Include="Trees\BinaryTrees\BinaryNode.cs" />
+    <Compile Include="Trees\BinaryTrees\BinarySearchTree.cs" />
+    <Compile Include="Trees\Heaps\BinaryHeap.cs" />
+    <Compile Include="Trees\Heaps\Heap.cs" />
+    <Compile Include="Trees\Tree.cs" />
+    <Compile Include="Trees\IntervalTrees\MaxAddIntervalTree.cs" />
+    <Compile Include="Trees\IntervalTrees\SumIntervalTree.cs" />
+    <Compile Include="Trees\MiniMax\MiniMaxExtensions.cs" />
+    <Compile Include="Trees\MiniMax\MiniMaxState.cs" />
+    <Compile Include="Trees\MiniMax\MiniMaxTree.cs" />
+    <Compile Include="Trees\OperationExtensions.cs" />
+    <Compile Include="Trees\IntervalTrees\IntervalTree.cs" />
     <Compile Include="Trees\TreeNode.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
